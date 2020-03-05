@@ -3,7 +3,7 @@
 		<title>dcr</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="dcr2.css" />
+		<link rel="stylesheet" href="dcr.css" />
 		<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="jquery.mobile.structure-1.4.5.min.css" /> 
 		<script src="jquery-1.11.1.min.js"></script> 
@@ -189,20 +189,20 @@
 		</script>
 	</head>
 	<body>
-		<div style="text-align:left">
-			<input type="text" size="20" id="fromText"/>
+		<div class="preview ui-shadow swatch">
+			<div class="ui-header ui-bar-a" data-swatch="a" data-theme="a" data-form="ui-bar-a" data-role="header" role="banner">
+				<a class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow" title=" Home " data-form="ui-icon" data-role="button" role="button"> Home </a>
+				<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">TKOL Decripter</h1>
+				<a class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-grid ui-btn-icon-notext ui-shadow" title=" Navigation " data-form="ui-icon" data-role="button" role="button"> Navigation </a>
+			</div>
+			<div class="ui-content ui-page-theme-a" data-form="ui-page-theme-a" data-theme="a" role="main">
+				<input type="text" data-theme="a" Placeholder="In" class="input" data-form="ui-body-a" id="fromText">
+				<button data-icon="star" data-theme="a" data-form="ui-btn-up-a" class=" ui-btn ui-btn-a ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all" id="btnDecripta">Decripta</button>
+				<button data-icon="star" data-theme="a" data-form="ui-btn-up-a" class=" ui-btn ui-btn-a ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all" id="btnCripta">Cripta</button>
+				<input type="text" data-theme="a" Placeholder="Out" class="input" data-form="ui-body-a" id="toText">
+				<br>
+				<input type="text" data-theme="a" Placeholder="Your key" class="input" data-form="ui-body-a" id="t">
+			</div>
 		</div>
-		<div style="text-align:left">
-		<button id="btnDecripta">Decripta</button>
-		<button id="btnCripta">Cripta</button>
-		</div>
-		<div style="text-align:left">
-		<input type="text" size="20" id="toText"/>
-		</div>
-		<div style="text-align:left">
-		<br/><br/><br/><br/><br/><br/><br/>
-		<input type="text" size="20" id="t"/>
-		</div>
-		
 	</body>
 </html>
