@@ -201,7 +201,7 @@
 				<button data-icon="star" data-theme="a" data-form="ui-btn-up-a" class=" ui-btn ui-btn-a ui-icon-star ui-btn-icon-left ui-shadow ui-corner-all" id="btnCripta">Cripta</button>
 				<input type="text" data-theme="a" Placeholder="Out" class="input" data-form="ui-body-a" id="toText">
 				<br>
-				<input type="text" data-theme="a" Placeholder="Your key" class="input" data-form="ui-body-a" id="t">
+				<input type="password" data-theme="a" Placeholder="Your key" class="input" data-form="ui-body-a" id="t">
 			</div>
 		</div>
 	</body>
