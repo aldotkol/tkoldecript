@@ -3,10 +3,14 @@
 <?
 
 //questo è un test
-$nome
+$nome="Aldo"
 
 function stampaNome($arg)
 {
-	echo "nome " + $arg
+	echo "nome " . $arg
+
 }
+
+stampaNome($nome);
+
 ?>
