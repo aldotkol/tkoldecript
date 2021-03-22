@@ -3,8 +3,8 @@
 <?
 
 //questo è un test
-$nome="Aldo";
-
+//$nome="Aldo";
+/*
 function stampaNome($arg)
 {
 	$nome = $arg;
@@ -14,8 +14,8 @@ function stampaNome($arg)
 echo $stringa;
 
 }
-
-stampaNome($nome);
+*/
+//stampaNome($nome);
 
 function test_static() {
     static $x = 0;
