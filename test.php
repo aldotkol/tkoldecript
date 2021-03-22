@@ -7,7 +7,11 @@ $nome="Aldo";
 
 function stampaNome($arg)
 {
-	echo "nome " . $arg ;
+	$nome = $arg;
+	$stringa = <<<EOD
+	Il mio nome è $nome
+	EOD;
+echo $stringa;
 
 }
 
